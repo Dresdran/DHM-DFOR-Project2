@@ -4,10 +4,15 @@ Tomb of the Mask is a free indie arcade game by Playgendary and Happymagenta tha
 
 Gameplay
 The gameplay of Tomb of the Mask is simple, involving the player dashing about stage levels, avoiding spiked walls and enemies that will kill your character if you aren’t fast enough and a death floor that slowly rises as you play a level. If you want a challenge, there is an arcade mode that allows you play a map that is procedural generated as you play it, allowing for a map of infinite length from which you can try and achieve higher and higher scores.
+
 By swiping the screen, you can make your character move in the direction that you swiped, though once your character starts moving they won’t stop until they hit a wall or other obstacle. Some walls are designed to spawn spikes a second or two after touching them and will likely be the source of most deaths in the early levels.
+
 The levels themselves contain stars and circles which can both be picked up for rewards once a level is complete. If you manage to get everything in the level and complete it you will be rewarded with a chest and a free power-up, as well as gaining points which contribute to a level system that lets you unlock more sprites for your character and which multiplies the amount of points you get each level. 
+
 An energy mechanic exists to prevent you from playing the map stages for too long in a given period of time, with deaths costing energy that is only replaced after some time has passed. As you can still play the arcade mode without energy, you can still binge Tomb of the Mask even if your energy runs out so while the mechanic itself is annoying, it is largely a non-issue.
+
 The only thing that tarnished the experience in my eyes was the rather aggressive ad placement between levels and during the opening of loot chests. Difficult to skip and with seemingly no time limit, with a single misplaced tap of the screen these ads will quickly whisk you away to the Play store hoping that you will download whatever they are advertising while you are there. While I was playing, this was most often an ad for TikTok.
+
 There were two ways to get around the aggressive ad placement of this application that I have found. The first is a one-dollar micro-transaction that will get rid of advertisements. The other is by putting your phone into airplay mode. As I am loath to reward companies for overly-aggressive businesses strategies, I have stuck with the latter method to get rid of my ad woes.
 
 Difficulties
