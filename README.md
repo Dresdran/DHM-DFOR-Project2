@@ -39,3 +39,25 @@ As such this project of mine does not, much to my chagrin, involve digging throu
 When I first began sifting through the quick image using Autopsy, I was worried that my quick image would give me nothing on the app. This was because of a keyword list I created that contained tomb of the mask, tombofthemask, and tomb_of_the_mask. This search gave me a single result, package.txt, which simply told me that the app had been installed. 
 
 The good news is that through a bit of rooting around in the data files I learned that the app used Tomb of the Mask’s developer, Playgendary, when referring to the app itself. When I searched for Playgendary as a regular expression through the search function, that is when I found my data. The file *Playgendary - Search Results* shows a small snippet of this result.
+
+Browsing through the files, we can see that quite a few of these files are records of activity that correspond to me running and playing Tomb of the Mask. SurfaceFlinger.txt and vibrator.txt  entries correspond to when I swiped the screen to move my character and felt slight vibrations from hitting walls. That there was an audio.txt entry is a bit odd, but as it seems to have been a one-time occurrence that was abandoned it may correspond to an ad I got before I turned on airplane mode. These three files can be seen in *Playgendary - Surface Flinger* *Playgendary - Vibration Permission* *Playgendary - Audio*.
+
+Similarly, files such as media.metrics.txt and gfxinfo.txt (*Playgendary - Media Metrics* and *Playgendary - GFX Info* respecitvely) give us information on the encoding/decoding processes of the app and its frame rate information, among other things. If this were a review of its specifications and how well the app runs these files would be useful, however I am more interested in the security flaws, if any, of this app as that is what I am most familiar with.
+
+Most of the files from this search are fairly easy to understand, however I will admit that the global-metadata.dat files were incomprehensible to me and gave me a headache whenever I tried to understand the lines upon lines of uninterrupted text. If you want to see a small snippet of this, go to *Playgendary - Global Metadata*.
+
+Based on how the deluge of ads stopped the moment I turned on airplane mode and how the ads returned when I turned said mode off, it is safe to say that the ads are not part of the app itself but are sent across the Internet to whatever device Tomb of the Mask is on from some server no doubt owned by either the publisher or developer of the app. 
+
+There is a wifi.txt entry that may correspond to these ads, as it is linked to the app itself, but as it stands I do not have enough knowledge to say whether the entry was linked to the ads or to a different function of the app. See *Playgendary - Wifi*.
+
+There also exists a few entries in dbinfo.txt, which seems to correspond to several different attempts to pull in ads between levels. With how many ads I got in the brief 10 minutes I played before I learned the airplane mode tricks, the number of entries is unsurprising. See *Playgendary - DB Info*.
+
+From a security perspective this ability of the app to request ads is a red flag, as all it takes is for one enterprising bad actor to find a way to hijack the server or message being sent to inject malicious software onto your phone. 
+
+When combined with the ability to write data to the phone as seen in the appops.txt (which by itself is harmless as the app needs to write data to the phone so it can store your progress), this could potentially allow an attacker to infect the application and use it to write whatever data it wants to your phone. See *Playgendary - Appops*.
+
+This is unfortunately the extent of what I was able to find that did not involve battery statistics, the window activities, and other mundane statistics like those found in vibrator.txt and company. 
+
+**Conclusion**
+
+If there is anything to take away from this review, its that if you are interested in this game you should only play it on airplane mode. That way the app cannot talk to servers and potentially bring in infected ads to your device. It is both safer and more enjoyable, a rare combination in this world of software.
