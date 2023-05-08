@@ -3,6 +3,7 @@
 **Overview**
 
 Tomb of the Mask is a free-to-play indie arcade game by Playgendary and Happymagenta that can be found on the Google Play Store for Android and Apple App Store for iOS. With over 100 million downloads and 2 million reviews, there are plenty of reviews of this game on the Internet. Few, however, examine the technical side of this app through the use of digital forensics. As a graduate student studying digital forensics, I hope to give to the Internet, and my professor, an adequate review of Tomb of the Mask that factors in both the gameplay and technical aspects of this popular app.
+
 **Gameplay**
 
 The gameplay of Tomb of the Mask is for the most part simple, involving the player dashing about levels, avoiding spiked walls, roaming enemies, and the occasional floor of lava that will end your run if your reflexes aren’t up to the task. Collect dots and stars placed throughout the levels to gain rewards and coins which can be used to buy power-ups and character skins that can be used to make subsequent levels easier and increase the amount of coins you gain.
